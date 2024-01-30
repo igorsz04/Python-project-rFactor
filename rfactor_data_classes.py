@@ -52,7 +52,7 @@ def new_season_riders():
         rider_class[i].save_skills()
         shutil.move(rcd_file[:-3] + "txt", rcd_file)
 
-new_season_riders()
+#new_season_riders()
 
 
 """
