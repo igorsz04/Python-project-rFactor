@@ -18,7 +18,7 @@ from datetime import datetime
 
 
 statistics_folder = r"C:\Users\igors\OneDrive\Dokumenty\\" 
-excel_data = load_workbook(statistics_folder + "team_info.xlsx")
+excel_data = load_workbook(statistics_folder + "team_info.xlsm")
 excel_data_sheet = excel_data["Data"]
 year = excel_data_sheet['B1'].value
 seriesname = excel_data_sheet['B2'].value
